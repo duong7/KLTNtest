@@ -4,8 +4,11 @@ services:
     build: .
     ports:
       - "8888:8888"
+    volumes:
+      - ./KLTNtest:/home/jovyan
     environment:
       - JUPYTER_ENABLE_LAB=yes
-
   
+ 
+
  
