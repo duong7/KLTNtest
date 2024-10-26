@@ -9,9 +9,4 @@ services:
     environment:
       - JUPYTER_ENABLE_LAB=yes
   
-  streamlit-app:
-    build: .
-    ports:
-      - "8501:8501"
-    volumes:
-      - .:/app
+ 
