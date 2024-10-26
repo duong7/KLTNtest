@@ -4,9 +4,8 @@ services:
     build: .
     ports:
       - "8888:8888"
-    volumes:
-      - C:/Users/Admin/DACN:/home/jovyan
     environment:
       - JUPYTER_ENABLE_LAB=yes
+
   
  
